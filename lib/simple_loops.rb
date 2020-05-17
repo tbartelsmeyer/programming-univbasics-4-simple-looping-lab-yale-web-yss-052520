@@ -24,7 +24,7 @@ def return_string_array(array)
   i = 0
   out_array = []
   while array[i] do
-    out_array[i] = array[i]
+    out_array[i] = array[i].to_s
     i += 1
   end
   binding.pry
