@@ -20,7 +20,7 @@ def output_array(array)
   end
 end
 
-def return_string_array
+def return_string_array(array)
   i = 0
   while array[i] do
     out_array[i] = array[i]
@@ -29,3 +29,5 @@ def return_string_array
   binding.pry
   out_array
 end
+
+return_string_array
