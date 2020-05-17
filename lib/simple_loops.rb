@@ -12,8 +12,8 @@ def loop_message_n_times(msg,amt2loop)
 end
 
 def output_array(array)
-  #i = 0
-  while array[i=0] do
+  i = 0
+  while array[i] do
     puts array[i]
     i += 1
   end
