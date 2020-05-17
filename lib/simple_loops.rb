@@ -1,3 +1,4 @@
+require pry
 # Write your methods here
 def loop_message_five_times(msg)
   5.times do
@@ -25,5 +26,6 @@ def return_string_array
     out_array[i] = array[i]
     i += 1
   end
+  binding.pry
   out_array
 end
