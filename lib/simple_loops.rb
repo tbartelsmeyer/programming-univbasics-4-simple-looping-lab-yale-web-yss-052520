@@ -19,9 +19,6 @@ def output_array(array)
   end
 end
 
-output_array(["a","b","c"])
-
-
 def return_string_array
   
 end
